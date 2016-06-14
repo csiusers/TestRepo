@@ -17,7 +17,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";CloudServiceNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[CloudService not found. Name {0}]]></Val>
+          <Val><![CDATA[CloudService not found. Name {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Props>
@@ -26,7 +26,7 @@
       </Item>
       <Item ItemId=";FailedToStartRunbook" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook cannot be started. Runbook name {0}]]></Val>
+          <Val><![CDATA[Runbook cannot be started. Runbook name {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Props>
@@ -35,7 +35,7 @@
       </Item>
       <Item ItemId=";SubscriptionNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Subcription not found. Id {0}]]></Val>
+          <Val><![CDATA[Subcription not found. Id {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Props>
