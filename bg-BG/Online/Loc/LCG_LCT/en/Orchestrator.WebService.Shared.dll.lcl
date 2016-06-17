@@ -32,7 +32,7 @@
       </Item>
       <Item ItemId=";AccountExistsInAnotherResourceGroupInSubscription" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account already exists in another resourcegroup in a subscription. ResourceGroupName: {0}...]]></Val>
+          <Val><![CDATA[Account already exists in another resourcegroup in a subscription. ResourceGroupName: {0}..]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -68,7 +68,7 @@
       </Item>
       <Item ItemId=";AccountMoved" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Account moved to new subscription and resource group. MovedSubscriptionId:{0}.. MovedResourceGroup:{1}]]></Val>
+          <Val><![CDATA[Account moved to new subscription and resource group. MovedSubscriptionId:{0}. MovedResourceGroup:{1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -86,13 +86,13 @@
       </Item>
       <Item ItemId=";AccountNameInvalid" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The account name is invalid.  The account name must not be empty, and must not exceed {0}.. characters in length.  The account name must start with a letter.  The account name can contain letters, numbers, and dashes.  The final character must be a letter or a number.]]></Val>
+          <Val><![CDATA[The account name is invalid.  The account name must not be empty, and must not exceed {0}. characters in length.  The account name must start with a letter.  The account name can contain letters, numbers, and dashes.  The final character must be a letter or a number.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";AccountNameMaxLengthExceeded" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The maximum length of an accountName was exceeded.  The maximum length allowed is {0}.. characters.]]></Val>
+          <Val><![CDATA[The maximum length of an accountName was exceeded.  The maximum length allowed is {0}. characters.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -128,7 +128,7 @@
       </Item>
       <Item ItemId=";AccountNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0}.. AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -218,31 +218,31 @@
       </Item>
       <Item ItemId=";CannotCreateModuleConnectionTypeExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50031:Module {0}.. could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
+          <Val><![CDATA[50031:Module {0}. could not be created as connection type with the same name {1} and different connention type field properties/values already exist.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";CannotCreateModuleErrorParsingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50032:Module {0}.. could not be created as there was an error parsing the module metadata file {1}]]></Val>
+          <Val><![CDATA[50032:Module {0}. could not be created as there was an error parsing the module metadata file {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";CannotCreateModuleErrorReadingMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50033:Module {0}.. could not be created as there was an error reading the module metadata file]]></Val>
+          <Val><![CDATA[50033:Module {0}. could not be created as there was an error reading the module metadata file]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";CannotCreateModuleErrorUnexpectedFormatMetadataFile" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50034:Cannot create Module {0}.. as the module metadata format was unexpected.]]></Val>
+          <Val><![CDATA[50034:Cannot create Module {0}. as the module metadata format was unexpected.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";CannotCreateModuleInvalidConnectionTypeType" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50037:Cannot create Module {0}.. as the type specified in the connection type metadata is invalid.]]></Val>
+          <Val><![CDATA[50037:Cannot create Module {0}. as the type specified in the connection type metadata is invalid.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -260,7 +260,7 @@
       </Item>
       <Item ItemId=";CannotCreateScheduleStartTimeNotAfterMinExpected" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0}.. minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
+          <Val><![CDATA[Could not create the schedule.  The start time must be at least {0}. minutes after the time you create the schedule.  Schedule: ‘{1}’.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -302,7 +302,7 @@
       </Item>
       <Item ItemId=";CannotUploadMediaResourceDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Error occured while uploading media resource '{0}..'.]]></Val>
+          <Val><![CDATA[50042: Error occured while uploading media resource '{0}.'.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -344,7 +344,7 @@
       </Item>
       <Item ItemId=";ConenctionTypeNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[type: {0}.. on the connection not found.]]></Val>
+          <Val><![CDATA[type: {0}. on the connection not found.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -392,7 +392,7 @@
       </Item>
       <Item ItemId=";ConnectionFieldNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Field: {0}.. not found.]]></Val>
+          <Val><![CDATA[Field: {0}. not found.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -458,13 +458,13 @@
       </Item>
       <Item ItemId=";CouldNotFindAccount" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Could not find the account. SubscriptionId: {0}.. AccountName: {1}]]></Val>
+          <Val><![CDATA[Could not find the account. SubscriptionId: {0}. AccountName: {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";CouldNotFindRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0}.. Version{1}. No activities will be extracted.]]></Val>
+          <Val><![CDATA[50002:Could not find Runbook to extract activities for Module {0}. Version{1}. No activities will be extracted.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -554,7 +554,7 @@
       </Item>
       <Item ItemId=";EntityNameMaxLengthExceeded" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Name too long.  The maximum length allowed is {0}.. characters.]]></Val>
+          <Val><![CDATA[Name too long.  The maximum length allowed is {0}. characters.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -566,7 +566,7 @@
       </Item>
       <Item ItemId=";ExceptionInvokingAction" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Exception invoking [action={0}..]5D;]]></Val>
+          <Val><![CDATA[Exception invoking [action={0}.]5D;]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -596,25 +596,25 @@
       </Item>
       <Item ItemId=";FilterQueryNavigationPropertyNotAllowed" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Navigation property {0}.. in $filter query is not supported.]]></Val>
+          <Val><![CDATA[Navigation property {0}. in $filter query is not supported.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";FuncIsNotInitialized" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[{0}.. Func is not initialized.]]></Val>
+          <Val><![CDATA[{0}. Func is not initialized.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortDirection" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort direction: {0}..]]></Val>
+          <Val><![CDATA[Invalid sort direction: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";GetRunbookJobSnapshotsInvalidSortProperty" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid sort property: {0}..]]></Val>
+          <Val><![CDATA[Invalid sort property: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -656,7 +656,7 @@
       </Item>
       <Item ItemId=";InvalidArgument_NullArgument" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Invalid argument specified. Argument {0}.. cannot be null.]]></Val>
+          <Val><![CDATA[Invalid argument specified. Argument {0}. cannot be null.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -698,7 +698,7 @@
       </Item>
       <Item ItemId=";InvalidJobParameterNameLength" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Job parameter name too long. Max allowed length:{0}... Parameter names: {1}]]></Val>
+          <Val><![CDATA[Job parameter name too long. Max allowed length:{0}.. Parameter names: {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -710,7 +710,7 @@
       </Item>
       <Item ItemId=";InvalidJobParameterValueLength" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Job parameter values too long. Max allowed length:{0}... Parameter names: {1}]]></Val>
+          <Val><![CDATA[Job parameter values too long. Max allowed length:{0}.. Parameter names: {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -752,7 +752,7 @@
       </Item>
       <Item ItemId=";InvalidModuleContentsUri" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module contents uri is invalid. Uri {0}..]]></Val>
+          <Val><![CDATA[Module contents uri is invalid. Uri {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -764,7 +764,7 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinition" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50006:Runbook definition is invalid. {0}..]]></Val>
+          <Val><![CDATA[50006:Runbook definition is invalid. {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -773,7 +773,7 @@
       </Item>
       <Item ItemId=";InvalidRunbookDefinitionMessage" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is invalid. {0}..]]></Val>
+          <Val><![CDATA[Runbook definition is invalid. {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -788,7 +788,7 @@
       </Item>
       <Item ItemId=";InvalidScheduleInterval" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Schedule interval is invalid. Interval {0}..]]></Val>
+          <Val><![CDATA[Schedule interval is invalid. Interval {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -824,7 +824,7 @@
       </Item>
       <Item ItemId=";JobIdAlreadyExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Job with specified id already exists. Job id: {0}..]]></Val>
+          <Val><![CDATA[Job with specified id already exists. Job id: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -872,13 +872,13 @@
       </Item>
       <Item ItemId=";JobStartThrottleByJobRuntimeLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}... The quota for the monthly total job run time has been reached for this subscription.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The quota for the monthly total job run time has been reached for this subscription.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";JobStartThrottleLimitReached" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The operation could not be performed. Operation: {0}... The maximum number of job requests has been reached. Please try again later.]]></Val>
+          <Val><![CDATA[The operation could not be performed. Operation: {0}.. The maximum number of job requests has been reached. Please try again later.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -914,13 +914,13 @@
       </Item>
       <Item ItemId=";MediaResourceCannotBeSaved" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}..']]></Val>
+          <Val><![CDATA[An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";MediaResourceCannotBeSavedDbg" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}..']]></Val>
+          <Val><![CDATA[50040: An error occurred. The media resource could not be saved.  Resource type '{0}.']]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -932,13 +932,13 @@
       </Item>
       <Item ItemId=";ModuleContentsCannotBeRead" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Unable to read module contents. ModuleName {0}... Uri {1}]]></Val>
+          <Val><![CDATA[Unable to read module contents. ModuleName {0}.. Uri {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ModuleContentsNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob is empty. ModuleName{0}... Uri {1}]]></Val>
+          <Val><![CDATA[Module data blob is empty. ModuleName{0}.. Uri {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -950,7 +950,7 @@
       </Item>
       <Item ItemId=";ModuleDeletedProblemParsingContents" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50036:Module {0}.. was deleted as there was a problem parsing its contents.]]></Val>
+          <Val><![CDATA[50036:Module {0}. was deleted as there was a problem parsing its contents.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -986,7 +986,7 @@
       </Item>
       <Item ItemId=";ModuleSizeLargerThanMaxSupported" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}... MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
+          <Val><![CDATA[Module data blob size is not supported. ModuleName {0}.. MaxModuleSize {1}. ActualModuleSize {2}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1076,7 +1076,7 @@
       </Item>
       <Item ItemId=";NumberOfConcurrentJobs" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[" {0}.. of concurrent jobs"]]></Val>
+          <Val><![CDATA[" {0}. of concurrent jobs"]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1094,13 +1094,13 @@
       </Item>
       <Item ItemId=";PropertyCannotBeUpdated" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Property '{0}..' cannot be updated.]]></Val>
+          <Val><![CDATA[Property '{0}.' cannot be updated.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";PropertyValueInvalid" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The value specified for the property {0}.. is invalid.]]></Val>
+          <Val><![CDATA[The value specified for the property {0}. is invalid.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1115,7 +1115,7 @@
       </Item>
       <Item ItemId=";PublishedRunbookVersionNotFoundDbg" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50042: Runbook '{0}..' does not contain a published version.]]></Val>
+          <Val><![CDATA[50042: Runbook '{0}.' does not contain a published version.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1130,25 +1130,25 @@
       </Item>
       <Item ItemId=";RequestCompleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Web Request {0}.. completed.]]></Val>
+          <Val><![CDATA[Web Request {0}. completed.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ResourceGroupAccountMappingNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[No mapping between a resource group with name {0}.. and an account with name {1} could be found for subscription {2}.]]></Val>
+          <Val><![CDATA[No mapping between a resource group with name {0}. and an account with name {1} could be found for subscription {2}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ResourceGroupNameInvalid" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The resource group name is invalid.  The resource group name must not be empty, and must not exceed {0}.. characters in length.]]></Val>
+          <Val><![CDATA[The resource group name is invalid.  The resource group name must not be empty, and must not exceed {0}. characters in length.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";ResourceGroupNameMaxLengthExceeded" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[The maximum length of a resourceGroupName was exceeded.  The maximum length allowed is {0}.. characters.]]></Val>
+          <Val><![CDATA[The maximum length of a resourceGroupName was exceeded.  The maximum length allowed is {0}. characters.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1166,7 +1166,7 @@
       </Item>
       <Item ItemId=";ResumingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50010:Resuming Job with JobId {0}..]]></Val>
+          <Val><![CDATA[50010:Resuming Job with JobId {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1190,7 +1190,7 @@
       </Item>
       <Item ItemId=";RunbookCreated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50038: Runbook '{0}..' created successfully.]]></Val>
+          <Val><![CDATA[50038: Runbook '{0}.' created successfully.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1208,19 +1208,19 @@
       </Item>
       <Item ItemId=";RunbookDefinitionStale" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Runbook definition is stale. Runbook '{0}..'.]]></Val>
+          <Val><![CDATA[Runbook definition is stale. Runbook '{0}.'.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";RunbookDefinitionStaleEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}..'.]]></Val>
+          <Val><![CDATA[50044:Runbook definition is stale. Runbook '{0}.'.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";RunbookDefinitionUpdated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50039: Runbook '{0}..' updated successfully.]]></Val>
+          <Val><![CDATA[50039: Runbook '{0}.' updated successfully.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1235,7 +1235,7 @@
       </Item>
       <Item ItemId=";RunbookDoesNotContainDraftToPublish" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50011:Runbook {0}.. does not contain draft to publish.]]></Val>
+          <Val><![CDATA[50011:Runbook {0}. does not contain draft to publish.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1256,7 +1256,7 @@
       </Item>
       <Item ItemId=";RunbookIsCheckedIn" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50012:Runbook {0}.. is checked in]]></Val>
+          <Val><![CDATA[50012:Runbook {0}. is checked in]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1271,7 +1271,7 @@
       </Item>
       <Item ItemId=";RunbookIsGoingToBeEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50013:Runbook {0}.. is going to be edited]]></Val>
+          <Val><![CDATA[50013:Runbook {0}. is going to be edited]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1280,7 +1280,7 @@
       </Item>
       <Item ItemId=";RunbookIsInEditModeNow" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50014:Runbook {0}.. is in edit mode now.]]></Val>
+          <Val><![CDATA[50014:Runbook {0}. is in edit mode now.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1289,7 +1289,7 @@
       </Item>
       <Item ItemId=";RunbookIsNotBeingEdited" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50015:Runbook {0}.. is not being editted.]]></Val>
+          <Val><![CDATA[50015:Runbook {0}. is not being editted.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1298,7 +1298,7 @@
       </Item>
       <Item ItemId=";RunbookIsNotYetPublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50016:Runbook {0}.. is not yet published.]]></Val>
+          <Val><![CDATA[50016:Runbook {0}. is not yet published.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1307,7 +1307,7 @@
       </Item>
       <Item ItemId=";RunbookIsReadyToBePublished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50017:Runbook {0}.. is ready to be published.]]></Val>
+          <Val><![CDATA[50017:Runbook {0}. is ready to be published.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1316,7 +1316,7 @@
       </Item>
       <Item ItemId=";RunbookNameAsSpecifiedInSlugHeader" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}..]]></Val>
+          <Val><![CDATA[50018:Runbook name as specified in slug header: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1370,7 +1370,7 @@
       </Item>
       <Item ItemId=";RunbookVersionSaveFailedEvt" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}..'.]]></Val>
+          <Val><![CDATA[50045: Error occured while saving runbook version. Runbook Name '{0}.'.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1466,7 +1466,7 @@
       </Item>
       <Item ItemId=";StartingRunbookOnSchedule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50019:Starting Runbook {0}.. on Schedule]]></Val>
+          <Val><![CDATA[50019:Starting Runbook {0}. on Schedule]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1475,7 +1475,7 @@
       </Item>
       <Item ItemId=";StartingRunbookToExtractActivitiesForModule" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0}.. Version {1}]]></Val>
+          <Val><![CDATA[50020:Starting Runbook to extract activities for Module {0}. Version {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Cmts>
@@ -1484,7 +1484,7 @@
       </Item>
       <Item ItemId=";StoppingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50021:Stopping Job {0}..]]></Val>
+          <Val><![CDATA[50021:Stopping Job {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1496,25 +1496,25 @@
       </Item>
       <Item ItemId=";SubscriptionIdNotFoundInUrl" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[No subscription id found in the url. Url {0}..]]></Val>
+          <Val><![CDATA[No subscription id found in the url. Url {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";SuspendingJob" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50022:Suspending Job {0}..]]></Val>
+          <Val><![CDATA[50022:Suspending Job {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";TempFileForRunbookDefinition" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50041:Temp file name: '{0}..']]></Val>
+          <Val><![CDATA[50041:Temp file name: '{0}.']]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";TempFileInUseAndCannotBeDeleted" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[50023:Temp file {0}.. is in use and cannot be deleted.]]></Val>
+          <Val><![CDATA[50023:Temp file {0}. is in use and cannot be deleted.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1538,7 +1538,7 @@
       </Item>
       <Item ItemId=";TierChanged" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Tier Changes to {0}..]]></Val>
+          <Val><![CDATA[Tier Changes to {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1562,7 +1562,7 @@
       </Item>
       <Item ItemId=";VariableAlreadyExists" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Variable with specified name already exists. Name: {0}..]]></Val>
+          <Val><![CDATA[Variable with specified name already exists. Name: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -1604,7 +1604,7 @@
       </Item>
       <Item ItemId=";WebServiceErrorSettingCommandTimeout" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}..]]></Val>
+          <Val><![CDATA[Cannot set CommandTimeout. Default value will be used. Exception: {0}.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
