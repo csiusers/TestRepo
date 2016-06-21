@@ -14,7 +14,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";AccountAlreadyExistsInOtherResourceGroup" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Test 12 Account already exists in other resource group and resource group cannot be modified. Account must be unique under a subscription.]]></Val>
+          <Val><![CDATA[Test 15 Account already exists in other resource group and resource group cannot be modified. Account must be unique under a subscription.]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
