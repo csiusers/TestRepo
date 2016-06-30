@@ -14,7 +14,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";ActionNotFound" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Action not found.]]></Val>
+          <Val><![CDATA[Test Action not found.]]></Val>
         </Str>
         <Disp Icon="Str" />
         <Props>
