@@ -17,7 +17,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";AzureQueueLength" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Test 2 Azure Average Queue Length Per Interval]]></Val>
+          <Val><![CDATA[Test 3 Azure Average Queue Length Per Interval]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
