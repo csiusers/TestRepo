@@ -14,7 +14,7 @@
       <Disp Icon="Str" LocTbl="false" />
       <Item ItemId=";CloudServicesControllerDeleteCloudServiceEnterExit" ItemType="0" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
+          <Val><![CDATA[Test SubscriptionId: {0}, CloudServiceName: {1}]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
